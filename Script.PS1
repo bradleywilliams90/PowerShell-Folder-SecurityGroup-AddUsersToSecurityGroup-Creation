@@ -72,7 +72,7 @@ function Set-ShareLocation ($shareLocation)
     $location = Read-Host "Please press 1 to continue"
 	write-host ""
     
-    #making sure people pick 1-3
+    #making sure people pick 1
     While ($location -notin 1)
     {
         Write-host "ERROR! Invalid entry."
